@@ -1,8 +1,5 @@
 # Password Generator
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Latest Release](https://img.shields.io/github/release/your-username/password-generator.svg)](https://github.com/your-username/password-generator/releases/latest)
-
 ## Description
 
 The Password Generator is a powerful tool that allows users to generate random, secure passwords with customizable options. This project is built using React and provides a user-friendly interface for generating passwords based on selected criteria.
@@ -31,24 +28,22 @@ You can try out the live demo of the Password Generator [here](https://passgenra
 
 ## Installation
 
-1. Download the project zip file from [here](link-to-zip-file).
+1. Extract the contents of the zip file to a directory of your choice.
 
-2. Extract the contents of the zip file to a directory of your choice.
-
-3. Open a terminal and navigate to the project directory:
+2. Open a terminal and navigate to the project directory:
 
 cd path/to/password-generator
 
-4. Install the dependencies:
+3. Install the dependencies:
 
 npm install
 
-5. Start the development server:
+4. Start the development server:
 
 npm run dev
 
 
-6. Access the Password Generator in your browser at `http://127.0.0.1:5173/`.
+5. Access the Password Generator in your browser at `http://127.0.0.1:5173/`.
 
 
 ## how to use the password generator code in other projects:
