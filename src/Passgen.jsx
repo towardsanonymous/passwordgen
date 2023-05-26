@@ -206,7 +206,7 @@ const generatePass = () => {
           <button className="strength-btn" id="number-el" onClick={numberCase}style={isNumberClicked?{ "color":"white","outline":"2px solid #4ADF86"}:{"Color":"#4ADF86","outline":"none"}}>Numbers</button>
           <button className="strength-btn" id="symbol-el" onClick={symbolCase}style={isSymbolClicked?{ "color":"white","outline":"2px solid #4ADF86"}:{"Color":"#4ADF86","outline":"none"}}>Symbols</button>
         </div>
-        <p>Set password length</p>
+        <p >Set password length</p>
         <div id="length-cont">
           <button id="minus-btn" className="length-number" onClick={minusCalc}>-</button>
           <div id="length-text" className="length-number">{lengthCount}</div>
@@ -214,15 +214,16 @@ const generatePass = () => {
         </div>
 
       </div>
-      <p>Password Strength</p>
+      <p className='ps'>Password Strength</p>
+
       <div className="meter-cont">
-        <div>
           <meter id="meter" value={meterValue} min="0" max="100" low="35" high="75" optimum="100" ></meter>
-        </div>
-        <div id="meter-text" style={{ color: meterColor, opacity: meterOpacity }}>{meterText}</div>
+            <div id="meter-text" style={{ color: meterColor, opacity: meterOpacity }}>{meterText}</div>
+        
       </div>
+
       <div id="result">
-        <button id="generate-btn" onClick={generatePass}>Generate passwords</button>
+        <button id="generate-btn" onClick={generatePass}>Generate Passwords</button>
         <p id="gen-text">{genText}</p>
         <div className="password-cont">
           <button id="pass-1" className="password-btn" onClick={copyText1}>{password1}</button>
